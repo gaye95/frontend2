@@ -18,7 +18,7 @@ const InscriptionForm = () => {
     e.preventDefault();
     try {
       await axios.post(
-        "https://backend2-qxjj.onrender.com/api/etudiants",
+        "https://backend2-1-173j.onrender.com/api/etudiants",
         formData
       );
       alert("Inscription réussie !");
